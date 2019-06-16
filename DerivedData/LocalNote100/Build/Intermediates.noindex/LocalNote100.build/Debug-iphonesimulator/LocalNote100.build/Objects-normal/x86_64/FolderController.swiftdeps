@@ -1,0 +1,474 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FolderController"
+provides-nominal:
+- "12LocalNote10016FolderControllerC"
+provides-member:
+- ["12LocalNote10016FolderControllerC", ""]
+provides-dynamic-lookup:
+- "numberOfSections"
+- "tableView"
+- "viewDidLoad"
+depends-top-level:
+- "AssignmentPrecedence"
+- !private "FloatLiteralType"
+- "Folder"
+- "FolderController"
+- "IndexPath"
+- "Int"
+- !private "IntegerLiteralType"
+- !private "StringLiteralType"
+- "UITableView"
+- "UITableViewCell"
+- "UITableViewController"
+depends-member:
+- !private ["Sa", "subscript"]
+- !private ["SK", "row"]
+- !private ["SK", "subscript"]
+- !private ["So15CALayerDelegateP", "dequeueReusableCell"]
+- !private ["So15CALayerDelegateP", "detailTextLabel"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["So15CALayerDelegateP", "textLabel"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "dateUpdateString"]
+- !private ["s7CVarArgP", "dequeueReusableCell"]
+- !private ["s7CVarArgP", "detailTextLabel"]
+- !private ["s7CVarArgP", "folder"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "name"]
+- !private ["s7CVarArgP", "notes"]
+- !private ["s7CVarArgP", "notesSorted"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "textLabel"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["Sl", "row"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "row"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "dateUpdateString"]
+- !private ["s28CustomDebugStringConvertibleP", "dequeueReusableCell"]
+- !private ["s28CustomDebugStringConvertibleP", "detailTextLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "folder"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "name"]
+- !private ["s28CustomDebugStringConvertibleP", "notes"]
+- !private ["s28CustomDebugStringConvertibleP", "notesSorted"]
+- !private ["s28CustomDebugStringConvertibleP", "row"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "textLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "row"]
+- !private ["s17CustomReflectableP", "subscript"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "dateUpdateString"]
+- !private ["s23CustomStringConvertibleP", "dequeueReusableCell"]
+- !private ["s23CustomStringConvertibleP", "detailTextLabel"]
+- !private ["s23CustomStringConvertibleP", "folder"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "name"]
+- !private ["s23CustomStringConvertibleP", "notes"]
+- !private ["s23CustomStringConvertibleP", "notesSorted"]
+- !private ["s23CustomStringConvertibleP", "row"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "textLabel"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["Se", "row"]
+- !private ["Se", "subscript"]
+- !private ["SE", "row"]
+- !private ["SE", "subscript"]
+- ["SQ", ""]
+- !private ["SQ", "count"]
+- !private ["SQ", "dateUpdateString"]
+- !private ["SQ", "dequeueReusableCell"]
+- !private ["SQ", "detailTextLabel"]
+- !private ["SQ", "folder"]
+- !private ["SQ", "init"]
+- !private ["SQ", "name"]
+- !private ["SQ", "notes"]
+- !private ["SQ", "notesSorted"]
+- !private ["SQ", "row"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "text"]
+- !private ["SQ", "textLabel"]
+- !private ["SQ", "viewDidLoad"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "row"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["12LocalNote1006FolderC", "notes"]
+- !private ["12LocalNote1006FolderC", "notesSorted"]
+- ["12LocalNote10016FolderControllerC", "Folder"]
+- ["12LocalNote10016FolderControllerC", "IndexPath"]
+- ["12LocalNote10016FolderControllerC", "Int"]
+- ["12LocalNote10016FolderControllerC", "UITableView"]
+- ["12LocalNote10016FolderControllerC", "UITableViewCell"]
+- ["12LocalNote10016FolderControllerC", "deinit"]
+- ["12LocalNote10016FolderControllerC", "folder"]
+- ["12LocalNote10016FolderControllerC", "init"]
+- ["12LocalNote10016FolderControllerC", "numberOfSections"]
+- ["12LocalNote10016FolderControllerC", "tableView"]
+- ["12LocalNote10016FolderControllerC", "viewDidLoad"]
+- ["SH", ""]
+- !private ["SH", "count"]
+- !private ["SH", "dateUpdateString"]
+- !private ["SH", "dequeueReusableCell"]
+- !private ["SH", "detailTextLabel"]
+- !private ["SH", "folder"]
+- !private ["SH", "init"]
+- !private ["SH", "name"]
+- !private ["SH", "notes"]
+- !private ["SH", "notesSorted"]
+- !private ["SH", "row"]
+- !private ["SH", "subscript"]
+- !private ["SH", "text"]
+- !private ["SH", "textLabel"]
+- !private ["SH", "viewDidLoad"]
+- !private ["10Foundation9IndexPathV", "row"]
+- !private ["SM", "row"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "count"]
+- !private ["So8NSCodingP", "dequeueReusableCell"]
+- !private ["So8NSCodingP", "detailTextLabel"]
+- !private ["So8NSCodingP", "folder"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "textLabel"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So9NSCopyingP", "count"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "folder"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So17NSFastEnumerationP", "count"]
+- !private ["So20NSFetchRequestResultP", "dateUpdateString"]
+- !private ["So20NSFetchRequestResultP", "name"]
+- !private ["So20NSFetchRequestResultP", "notes"]
+- !private ["So20NSFetchRequestResultP", "notesSorted"]
+- !private ["So15NSManagedObjectC", "dateUpdateString"]
+- !private ["So15NSManagedObjectC", "name"]
+- !private ["So15NSManagedObjectC", "notes"]
+- !private ["So15NSManagedObjectC", "notesSorted"]
+- !private ["So16NSMutableCopyingP", "count"]
+- ["So8NSObjectC", "Folder"]
+- ["So8NSObjectC", "IndexPath"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "UITableView"]
+- ["So8NSObjectC", "UITableViewCell"]
+- !private ["So8NSObjectC", "count"]
+- !private ["So8NSObjectC", "dateUpdateString"]
+- !private ["So8NSObjectC", "dequeueReusableCell"]
+- !private ["So8NSObjectC", "detailTextLabel"]
+- ["So8NSObjectC", "folder"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "name"]
+- !private ["So8NSObjectC", "notes"]
+- !private ["So8NSObjectC", "notesSorted"]
+- ["So8NSObjectC", "numberOfSections"]
+- ["So8NSObjectC", "tableView"]
+- !private ["So8NSObjectC", "text"]
+- !private ["So8NSObjectC", "textLabel"]
+- ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "count"]
+- !private ["So8NSObjectP", "dateUpdateString"]
+- !private ["So8NSObjectP", "dequeueReusableCell"]
+- !private ["So8NSObjectP", "detailTextLabel"]
+- !private ["So8NSObjectP", "folder"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "name"]
+- !private ["So8NSObjectP", "notes"]
+- !private ["So8NSObjectP", "notesSorted"]
+- !private ["So8NSObjectP", "text"]
+- !private ["So8NSObjectP", "textLabel"]
+- !private ["So8NSObjectP", "viewDidLoad"]
+- !private ["So14NSSecureCodingP", "count"]
+- !private ["So5NSSetC", "count"]
+- !private ["12LocalNote1004NoteC", "dateUpdateString"]
+- !private ["12LocalNote1004NoteC", "name"]
+- !private ["Sk", "row"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "subscript"]
+- !private ["10Foundation20ReferenceConvertibleP", "row"]
+- !private ["ST", "count"]
+- !private ["ST", "row"]
+- !private ["ST", "subscript"]
+- !private ["So29UIAccessibilityIdentificationP", "dequeueReusableCell"]
+- !private ["So29UIAccessibilityIdentificationP", "detailTextLabel"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So29UIAccessibilityIdentificationP", "textLabel"]
+- !private ["So12UIAppearanceP", "dequeueReusableCell"]
+- !private ["So12UIAppearanceP", "detailTextLabel"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So12UIAppearanceP", "textLabel"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "dequeueReusableCell"]
+- !private ["So21UIAppearanceContainerP", "detailTextLabel"]
+- !private ["So21UIAppearanceContainerP", "folder"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "textLabel"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "folder"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So17UICoordinateSpaceP", "dequeueReusableCell"]
+- !private ["So17UICoordinateSpaceP", "detailTextLabel"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So17UICoordinateSpaceP", "textLabel"]
+- !private ["So23UIDataSourceTranslatingP", "dequeueReusableCell"]
+- !private ["So13UIDynamicItemP", "dequeueReusableCell"]
+- !private ["So13UIDynamicItemP", "detailTextLabel"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So13UIDynamicItemP", "textLabel"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "dequeueReusableCell"]
+- !private ["So18UIFocusEnvironmentP", "detailTextLabel"]
+- !private ["So18UIFocusEnvironmentP", "folder"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "textLabel"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", "dequeueReusableCell"]
+- !private ["So11UIFocusItemP", "detailTextLabel"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So11UIFocusItemP", "textLabel"]
+- !private ["So20UIFocusItemContainerP", "dequeueReusableCell"]
+- !private ["So20UIFocusItemContainerP", "detailTextLabel"]
+- !private ["So20UIFocusItemContainerP", "text"]
+- !private ["So20UIFocusItemContainerP", "textLabel"]
+- !private ["So30UIFocusItemScrollableContainerP", "dequeueReusableCell"]
+- !private ["So27UIGestureRecognizerDelegateP", "detailTextLabel"]
+- !private ["So27UIGestureRecognizerDelegateP", "textLabel"]
+- !private ["So7UILabelC", "text"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "dequeueReusableCell"]
+- !private ["So30UIPasteConfigurationSupportingP", "detailTextLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "folder"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "textLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So11UIResponderC", "Folder"]
+- ["So11UIResponderC", "IndexPath"]
+- ["So11UIResponderC", "Int"]
+- ["So11UIResponderC", "UITableView"]
+- ["So11UIResponderC", "UITableViewCell"]
+- !private ["So11UIResponderC", "dequeueReusableCell"]
+- !private ["So11UIResponderC", "detailTextLabel"]
+- ["So11UIResponderC", "folder"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "numberOfSections"]
+- ["So11UIResponderC", "tableView"]
+- !private ["So11UIResponderC", "text"]
+- !private ["So11UIResponderC", "textLabel"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "dequeueReusableCell"]
+- !private ["So30UIResponderStandardEditActionsP", "detailTextLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "folder"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "textLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So12UIScrollViewC", "dequeueReusableCell"]
+- ["So20UIScrollViewDelegateP", ""]
+- !private ["So20UIScrollViewDelegateP", "folder"]
+- !private ["So20UIScrollViewDelegateP", "init"]
+- !private ["So20UIScrollViewDelegateP", "viewDidLoad"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "dequeueReusableCell"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "folder"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So11UITableViewC", "dequeueReusableCell"]
+- !private ["So15UITableViewCellC", "detailTextLabel"]
+- !private ["So15UITableViewCellC", "textLabel"]
+- ["So21UITableViewControllerC", "Folder"]
+- ["So21UITableViewControllerC", "IndexPath"]
+- ["So21UITableViewControllerC", "Int"]
+- ["So21UITableViewControllerC", "UITableView"]
+- ["So21UITableViewControllerC", "UITableViewCell"]
+- ["So21UITableViewControllerC", ""]
+- ["So21UITableViewControllerC", "folder"]
+- ["So21UITableViewControllerC", "init"]
+- ["So21UITableViewControllerC", "numberOfSections"]
+- ["So21UITableViewControllerC", "tableView"]
+- ["So21UITableViewControllerC", "viewDidLoad"]
+- ["So21UITableViewDataSourceP", ""]
+- !private ["So21UITableViewDataSourceP", "folder"]
+- !private ["So21UITableViewDataSourceP", "init"]
+- !private ["So21UITableViewDataSourceP", "viewDidLoad"]
+- ["So19UITableViewDelegateP", ""]
+- !private ["So19UITableViewDelegateP", "folder"]
+- !private ["So19UITableViewDelegateP", "init"]
+- !private ["So19UITableViewDelegateP", "viewDidLoad"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "dequeueReusableCell"]
+- !private ["So18UITraitEnvironmentP", "detailTextLabel"]
+- !private ["So18UITraitEnvironmentP", "folder"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "textLabel"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "dequeueReusableCell"]
+- !private ["So23UIUserActivityRestoringP", "detailTextLabel"]
+- !private ["So23UIUserActivityRestoringP", "folder"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "text"]
+- !private ["So23UIUserActivityRestoringP", "textLabel"]
+- !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- !private ["So6UIViewC", "dequeueReusableCell"]
+- !private ["So6UIViewC", "detailTextLabel"]
+- !private ["So6UIViewC", "text"]
+- !private ["So6UIViewC", "textLabel"]
+- ["So16UIViewControllerC", "Folder"]
+- ["So16UIViewControllerC", "IndexPath"]
+- ["So16UIViewControllerC", "Int"]
+- ["So16UIViewControllerC", "UITableView"]
+- ["So16UIViewControllerC", "UITableViewCell"]
+- ["So16UIViewControllerC", "folder"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "numberOfSections"]
+- ["So16UIViewControllerC", "tableView"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "count"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dateUpdateString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dequeueReusableCell"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "detailTextLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "folder"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "notes"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "notesSorted"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "textLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["s21_ObjectiveCBridgeableP", "row"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "dequeueReusableCell"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "detailTextLabel"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "text"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "textLabel"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "12LocalNote1006FolderC"
+- "12LocalNote10016FolderControllerC"
+- "SH"
+- !private "10Foundation9IndexPathV"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So17NSFastEnumerationP"
+- !private "So20NSFetchRequestResultP"
+- !private "So15NSManagedObjectC"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So5NSSetC"
+- !private "12LocalNote1004NoteC"
+- !private "Sk"
+- !private "Sm"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "ST"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So17UICoordinateSpaceP"
+- !private "So23UIDataSourceTranslatingP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So30UIFocusItemScrollableContainerP"
+- !private "So27UIGestureRecognizerDelegateP"
+- !private "So7UILabelC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So12UIScrollViewC"
+- "So20UIScrollViewDelegateP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So16UIStateRestoringP"
+- !private "So11UITableViewC"
+- !private "So15UITableViewCellC"
+- "So21UITableViewControllerC"
+- "So21UITableViewDataSourceP"
+- "So19UITableViewDelegateP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "d45f47d3d089db28258e9936f4128f6c"

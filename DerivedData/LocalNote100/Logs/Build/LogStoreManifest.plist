@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>11770794-7A13-4736-BA0E-464D11050E0D</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>11770794-7A13-4736-BA0E-464D11050E0D.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>LocalNote100 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>LocalNote100</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build LocalNote100</string>
+			<key>timeStartedRecording</key>
+			<real>582400288.40628505</real>
+			<key>timeStoppedRecording</key>
+			<real>582400292.91633701</real>
+			<key>title</key>
+			<string>Build LocalNote100</string>
+			<key>uniqueIdentifier</key>
+			<string>11770794-7A13-4736-BA0E-464D11050E0D</string>
+		</dict>
+		<key>11B48E3F-82FE-47A8-8C50-018860A1E5A0</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>11B48E3F-82FE-47A8-8C50-018860A1E5A0.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>LocalNote100 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>LocalNote100</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build LocalNote100</string>
+			<key>timeStartedRecording</key>
+			<real>582402375.96405995</real>
+			<key>timeStoppedRecording</key>
+			<real>582402386.23116601</real>
+			<key>title</key>
+			<string>Build LocalNote100</string>
+			<key>uniqueIdentifier</key>
+			<string>11B48E3F-82FE-47A8-8C50-018860A1E5A0</string>
+		</dict>
+		<key>15927CDF-1060-4640-9D06-55490DAD1B0C</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>15927CDF-1060-4640-9D06-55490DAD1B0C.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>LocalNote100 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>LocalNote100</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build LocalNote100</string>
+			<key>timeStartedRecording</key>
+			<real>582400680.91403902</real>
+			<key>timeStoppedRecording</key>
+			<real>582400690.57790101</real>
+			<key>title</key>
+			<string>Build LocalNote100</string>
+			<key>uniqueIdentifier</key>
+			<string>15927CDF-1060-4640-9D06-55490DAD1B0C</string>
+		</dict>
+		<key>2ACF098C-530B-4D1F-A10C-F7C87ADEA3D2</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>2ACF098C-530B-4D1F-A10C-F7C87ADEA3D2.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>LocalNote100 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>LocalNote100</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Clean LocalNote100</string>
+			<key>timeStartedRecording</key>
+			<real>582402414.56561697</real>
+			<key>timeStoppedRecording</key>
+			<real>582402414.69108903</real>
+			<key>title</key>
+			<string>Clean LocalNote100</string>
+			<key>uniqueIdentifier</key>
+			<string>2ACF098C-530B-4D1F-A10C-F7C87ADEA3D2</string>
+		</dict>
+		<key>3D7452CC-FD1A-4DF4-BE8E-8C6267A0FE3A</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>3D7452CC-FD1A-4DF4-BE8E-8C6267A0FE3A.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>LocalNote100 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>LocalNote100</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build LocalNote100</string>
+			<key>timeStartedRecording</key>
+			<real>582401019.36395204</real>
+			<key>timeStoppedRecording</key>
+			<real>582401019.707268</real>
+			<key>title</key>
+			<string>Build LocalNote100</string>
+			<key>uniqueIdentifier</key>
+			<string>3D7452CC-FD1A-4DF4-BE8E-8C6267A0FE3A</string>
+		</dict>
+		<key>624271C6-DB33-4AF2-B635-1757BF8DC7D0</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>624271C6-DB33-4AF2-B635-1757BF8DC7D0.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>LocalNote100 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>LocalNote100</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build LocalNote100</string>
+			<key>timeStartedRecording</key>
+			<real>582400190.16904998</real>
+			<key>timeStoppedRecording</key>
+			<real>582400206.61365294</real>
+			<key>title</key>
+			<string>Build LocalNote100</string>
+			<key>uniqueIdentifier</key>
+			<string>624271C6-DB33-4AF2-B635-1757BF8DC7D0</string>
+		</dict>
+		<key>740103E8-81E5-4A50-A50E-F088BA821061</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>740103E8-81E5-4A50-A50E-F088BA821061.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>LocalNote100 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>LocalNote100</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build LocalNote100</string>
+			<key>timeStartedRecording</key>
+			<real>582402419.38529801</real>
+			<key>timeStoppedRecording</key>
+			<real>582402438.82387996</real>
+			<key>title</key>
+			<string>Build LocalNote100</string>
+			<key>uniqueIdentifier</key>
+			<string>740103E8-81E5-4A50-A50E-F088BA821061</string>
+		</dict>
+		<key>7C1ED26A-1F32-4D88-9E48-8775659A24B1</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>7C1ED26A-1F32-4D88-9E48-8775659A24B1.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>LocalNote100 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>LocalNote100</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build LocalNote100</string>
+			<key>timeStartedRecording</key>
+			<real>582402533.11229098</real>
+			<key>timeStoppedRecording</key>
+			<real>582402535.68036795</real>
+			<key>title</key>
+			<string>Build LocalNote100</string>
+			<key>uniqueIdentifier</key>
+			<string>7C1ED26A-1F32-4D88-9E48-8775659A24B1</string>
+		</dict>
+		<key>BFFF8D26-C3AA-46B8-9DB5-79EC9E1AA752</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>BFFF8D26-C3AA-46B8-9DB5-79EC9E1AA752.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>LocalNote100 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>LocalNote100</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Clean LocalNote100</string>
+			<key>timeStartedRecording</key>
+			<real>582400264.38089097</real>
+			<key>timeStoppedRecording</key>
+			<real>582400264.57591796</real>
+			<key>title</key>
+			<string>Clean LocalNote100</string>
+			<key>uniqueIdentifier</key>
+			<string>BFFF8D26-C3AA-46B8-9DB5-79EC9E1AA752</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "e8d3c049f545b0bfdc914b1f57bb1153"
+build_time: [1560709733, 223149000]
+inputs:
+  "/Users/oleksandrgonorovskyy/Desktop/Developer/IScool/LocalNote100/LocalNote100/Location+CoreDataProperties.swift": [1559505976, 0]
+  "/Users/oleksandrgonorovskyy/Desktop/Developer/IScool/LocalNote100/LocalNote100/FoldersController.swift": [1560709576, 0]
+  "/Users/oleksandrgonorovskyy/Desktop/Developer/IScool/LocalNote100/LocalNote100/Location+CoreDataClass.swift": [1559505976, 0]
+  "/Users/oleksandrgonorovskyy/Desktop/Developer/IScool/LocalNote100/LocalNote100/FolderController.swift": [1560629835, 0]
+  "/Users/oleksandrgonorovskyy/Desktop/Developer/IScool/LocalNote100/LocalNote100/ImageNote+CoreDataProperties.swift": [1559505976, 0]
+  "/Users/oleksandrgonorovskyy/Desktop/Developer/IScool/LocalNote100/LocalNote100/Folder+CoreDataProperties.swift": [1559505976, 0]
+  "/Users/oleksandrgonorovskyy/Desktop/Developer/IScool/LocalNote100/LocalNote100/Note+CoreDataClass.swift": [1560707880, 0]
+  "/Users/oleksandrgonorovskyy/Desktop/Developer/IScool/LocalNote100/LocalNote100/AppDelegate.swift": [1560709171, 0]
+  "/Users/oleksandrgonorovskyy/Desktop/Developer/IScool/LocalNote100/LocalNote100/ImageNote+CoreDataClass.swift": [1559505976, 0]
+  "/Users/oleksandrgonorovskyy/Desktop/Developer/IScool/LocalNote100/LocalNote100/Folder+CoreDataClass.swift": [1560628692, 0]
+  "/Users/oleksandrgonorovskyy/Desktop/Developer/IScool/LocalNote100/LocalNote100/Note+CoreDataProperties.swift": [1559505976, 0]
+  "/Users/oleksandrgonorovskyy/Desktop/Developer/IScool/LocalNote100/LocalNote100/Model/CoreDataManager.swift": [1560542417, 0]

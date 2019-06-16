@@ -1,0 +1,348 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Note"
+provides-nominal:
+- "12LocalNote1004NoteC"
+provides-member:
+- ["12LocalNote1004NoteC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- !private "CoreDataManager"
+- !private "Date"
+- !private "DateFormatter"
+- "Double"
+- !private "FloatLiteralType"
+- !private "ImageNote"
+- !private "Location"
+- !private "NSData"
+- !private "NSDate"
+- "NSManagedObject"
+- "Note"
+- "String"
+- "UIImage"
+depends-member:
+- !private ["s7CVarArgP", "CoreDataManager"]
+- !private ["s7CVarArgP", "DateFormatter"]
+- !private ["s7CVarArgP", "ImageNote"]
+- !private ["s7CVarArgP", "Location"]
+- !private ["s7CVarArgP", "NSDate"]
+- !private ["s7CVarArgP", "Note"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "dateStyle"]
+- !private ["s7CVarArgP", "dateUpdate"]
+- !private ["s7CVarArgP", "image"]
+- !private ["s7CVarArgP", "imageBig"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "jpegData"]
+- !private ["s7CVarArgP", "lat"]
+- !private ["s7CVarArgP", "location"]
+- !private ["s7CVarArgP", "lon"]
+- !private ["s7CVarArgP", "name"]
+- !private ["s7CVarArgP", "string"]
+- !private ["s7CVarArgP", "timeStyle"]
+- !private ["12LocalNote10015CoreDataManagerC", "managedObjectContext"]
+- !private ["12LocalNote10015CoreDataManagerC", "sharedInstance"]
+- !private ["s28CustomDebugStringConvertibleP", "CoreDataManager"]
+- !private ["s28CustomDebugStringConvertibleP", "DateFormatter"]
+- !private ["s28CustomDebugStringConvertibleP", "ImageNote"]
+- !private ["s28CustomDebugStringConvertibleP", "Location"]
+- !private ["s28CustomDebugStringConvertibleP", "NSDate"]
+- !private ["s28CustomDebugStringConvertibleP", "Note"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "dateStyle"]
+- !private ["s28CustomDebugStringConvertibleP", "dateUpdate"]
+- !private ["s28CustomDebugStringConvertibleP", "image"]
+- !private ["s28CustomDebugStringConvertibleP", "imageBig"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "jpegData"]
+- !private ["s28CustomDebugStringConvertibleP", "lat"]
+- !private ["s28CustomDebugStringConvertibleP", "location"]
+- !private ["s28CustomDebugStringConvertibleP", "lon"]
+- !private ["s28CustomDebugStringConvertibleP", "name"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
+- !private ["s28CustomDebugStringConvertibleP", "timeStyle"]
+- !private ["s23CustomStringConvertibleP", "CoreDataManager"]
+- !private ["s23CustomStringConvertibleP", "DateFormatter"]
+- !private ["s23CustomStringConvertibleP", "ImageNote"]
+- !private ["s23CustomStringConvertibleP", "Location"]
+- !private ["s23CustomStringConvertibleP", "NSDate"]
+- !private ["s23CustomStringConvertibleP", "Note"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "dateStyle"]
+- !private ["s23CustomStringConvertibleP", "dateUpdate"]
+- !private ["s23CustomStringConvertibleP", "image"]
+- !private ["s23CustomStringConvertibleP", "imageBig"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "jpegData"]
+- !private ["s23CustomStringConvertibleP", "lat"]
+- !private ["s23CustomStringConvertibleP", "location"]
+- !private ["s23CustomStringConvertibleP", "lon"]
+- !private ["s23CustomStringConvertibleP", "name"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- !private ["s23CustomStringConvertibleP", "timeStyle"]
+- !private ["So15NSDateFormatterC", "dateStyle"]
+- !private ["So15NSDateFormatterC", "init"]
+- !private ["So15NSDateFormatterC", "string"]
+- !private ["So15NSDateFormatterC", "timeStyle"]
+- !private ["SQ", "CoreDataManager"]
+- !private ["SQ", "DateFormatter"]
+- !private ["SQ", "ImageNote"]
+- !private ["SQ", "Location"]
+- !private ["SQ", "NSDate"]
+- !private ["SQ", "Note"]
+- ["SQ", ""]
+- !private ["SQ", "dateStyle"]
+- !private ["SQ", "dateUpdate"]
+- !private ["SQ", "image"]
+- !private ["SQ", "imageBig"]
+- !private ["SQ", "init"]
+- !private ["SQ", "jpegData"]
+- !private ["SQ", "lat"]
+- !private ["SQ", "location"]
+- !private ["SQ", "lon"]
+- !private ["SQ", "medium"]
+- !private ["SQ", "name"]
+- !private ["SQ", "short"]
+- !private ["SQ", "string"]
+- !private ["SQ", "timeStyle"]
+- !private ["So11NSFormatterC", "dateStyle"]
+- !private ["So11NSFormatterC", "init"]
+- !private ["So11NSFormatterC", "string"]
+- !private ["So11NSFormatterC", "timeStyle"]
+- !private ["SH", "CoreDataManager"]
+- !private ["SH", "DateFormatter"]
+- !private ["SH", "ImageNote"]
+- !private ["SH", "Location"]
+- !private ["SH", "NSDate"]
+- !private ["SH", "Note"]
+- ["SH", ""]
+- !private ["SH", "dateStyle"]
+- !private ["SH", "dateUpdate"]
+- !private ["SH", "image"]
+- !private ["SH", "imageBig"]
+- !private ["SH", "init"]
+- !private ["SH", "jpegData"]
+- !private ["SH", "lat"]
+- !private ["SH", "location"]
+- !private ["SH", "lon"]
+- !private ["SH", "medium"]
+- !private ["SH", "name"]
+- !private ["SH", "short"]
+- !private ["SH", "string"]
+- !private ["SH", "timeStyle"]
+- !private ["12LocalNote1009ImageNoteC", "imageBig"]
+- !private ["12LocalNote1009ImageNoteC", "init"]
+- !private ["12LocalNote1008LocationC", "init"]
+- !private ["12LocalNote1008LocationC", "lat"]
+- !private ["12LocalNote1008LocationC", "lon"]
+- !private ["So8NSCodingP", "dateStyle"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "jpegData"]
+- !private ["So8NSCodingP", "string"]
+- !private ["So8NSCodingP", "timeStyle"]
+- !private ["So9NSCopyingP", "dateStyle"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "string"]
+- !private ["So9NSCopyingP", "timeStyle"]
+- !private ["So6NSDateC", "init"]
+- !private ["So20NSFetchRequestResultP", "CoreDataManager"]
+- !private ["So20NSFetchRequestResultP", "DateFormatter"]
+- !private ["So20NSFetchRequestResultP", "ImageNote"]
+- !private ["So20NSFetchRequestResultP", "Location"]
+- !private ["So20NSFetchRequestResultP", "NSDate"]
+- !private ["So20NSFetchRequestResultP", "Note"]
+- ["So20NSFetchRequestResultP", ""]
+- !private ["So20NSFetchRequestResultP", "dateUpdate"]
+- !private ["So20NSFetchRequestResultP", "image"]
+- !private ["So20NSFetchRequestResultP", "imageBig"]
+- !private ["So20NSFetchRequestResultP", "init"]
+- !private ["So20NSFetchRequestResultP", "lat"]
+- !private ["So20NSFetchRequestResultP", "location"]
+- !private ["So20NSFetchRequestResultP", "lon"]
+- !private ["So20NSFetchRequestResultP", "name"]
+- !private ["So21NSItemProviderReadingP", "jpegData"]
+- !private ["So21NSItemProviderWritingP", "jpegData"]
+- !private ["So15NSManagedObjectC", "CoreDataManager"]
+- !private ["So15NSManagedObjectC", "Date"]
+- !private ["So15NSManagedObjectC", "DateFormatter"]
+- ["So15NSManagedObjectC", "Double"]
+- !private ["So15NSManagedObjectC", "ImageNote"]
+- !private ["So15NSManagedObjectC", "Location"]
+- !private ["So15NSManagedObjectC", "NSData"]
+- !private ["So15NSManagedObjectC", "NSDate"]
+- ["So15NSManagedObjectC", "Note"]
+- ["So15NSManagedObjectC", "String"]
+- ["So15NSManagedObjectC", "UIImage"]
+- ["So15NSManagedObjectC", ""]
+- ["So15NSManagedObjectC", "addImage"]
+- ["So15NSManagedObjectC", "addLocation"]
+- !private ["So15NSManagedObjectC", "dateUpdate"]
+- ["So15NSManagedObjectC", "dateUpdateString"]
+- !private ["So15NSManagedObjectC", "image"]
+- !private ["So15NSManagedObjectC", "imageBig"]
+- ["So15NSManagedObjectC", "init"]
+- !private ["So15NSManagedObjectC", "lat"]
+- !private ["So15NSManagedObjectC", "location"]
+- !private ["So15NSManagedObjectC", "lon"]
+- !private ["So15NSManagedObjectC", "name"]
+- ["So15NSManagedObjectC", "newNote"]
+- !private ["So8NSObjectC", "CoreDataManager"]
+- !private ["So8NSObjectC", "Date"]
+- !private ["So8NSObjectC", "DateFormatter"]
+- ["So8NSObjectC", "Double"]
+- !private ["So8NSObjectC", "ImageNote"]
+- !private ["So8NSObjectC", "Location"]
+- !private ["So8NSObjectC", "NSData"]
+- !private ["So8NSObjectC", "NSDate"]
+- ["So8NSObjectC", "Note"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UIImage"]
+- ["So8NSObjectC", "addImage"]
+- ["So8NSObjectC", "addLocation"]
+- !private ["So8NSObjectC", "dateStyle"]
+- !private ["So8NSObjectC", "dateUpdate"]
+- ["So8NSObjectC", "dateUpdateString"]
+- !private ["So8NSObjectC", "image"]
+- !private ["So8NSObjectC", "imageBig"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "jpegData"]
+- !private ["So8NSObjectC", "lat"]
+- !private ["So8NSObjectC", "location"]
+- !private ["So8NSObjectC", "lon"]
+- !private ["So8NSObjectC", "name"]
+- ["So8NSObjectC", "newNote"]
+- !private ["So8NSObjectC", "string"]
+- !private ["So8NSObjectC", "timeStyle"]
+- !private ["So8NSObjectP", "CoreDataManager"]
+- !private ["So8NSObjectP", "DateFormatter"]
+- !private ["So8NSObjectP", "ImageNote"]
+- !private ["So8NSObjectP", "Location"]
+- !private ["So8NSObjectP", "NSDate"]
+- !private ["So8NSObjectP", "Note"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "dateStyle"]
+- !private ["So8NSObjectP", "dateUpdate"]
+- !private ["So8NSObjectP", "image"]
+- !private ["So8NSObjectP", "imageBig"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "jpegData"]
+- !private ["So8NSObjectP", "lat"]
+- !private ["So8NSObjectP", "location"]
+- !private ["So8NSObjectP", "lon"]
+- !private ["So8NSObjectP", "name"]
+- !private ["So8NSObjectP", "string"]
+- !private ["So8NSObjectP", "timeStyle"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "jpegData"]
+- !private ["12LocalNote1004NoteC", "CoreDataManager"]
+- !private ["12LocalNote1004NoteC", "Date"]
+- !private ["12LocalNote1004NoteC", "DateFormatter"]
+- ["12LocalNote1004NoteC", "Double"]
+- !private ["12LocalNote1004NoteC", "ImageNote"]
+- !private ["12LocalNote1004NoteC", "Location"]
+- !private ["12LocalNote1004NoteC", "NSData"]
+- !private ["12LocalNote1004NoteC", "NSDate"]
+- ["12LocalNote1004NoteC", "Note"]
+- ["12LocalNote1004NoteC", "String"]
+- ["12LocalNote1004NoteC", "UIImage"]
+- ["12LocalNote1004NoteC", "addImage"]
+- ["12LocalNote1004NoteC", "addLocation"]
+- !private ["12LocalNote1004NoteC", "dateUpdate"]
+- ["12LocalNote1004NoteC", "dateUpdateString"]
+- ["12LocalNote1004NoteC", "deinit"]
+- !private ["12LocalNote1004NoteC", "image"]
+- ["12LocalNote1004NoteC", "init"]
+- !private ["12LocalNote1004NoteC", "location"]
+- !private ["12LocalNote1004NoteC", "name"]
+- ["12LocalNote1004NoteC", "newNote"]
+- !private ["SY", "medium"]
+- !private ["SY", "short"]
+- !private ["So20NSDateFormatterStyleV", "medium"]
+- !private ["So20NSDateFormatterStyleV", "short"]
+- !private ["So29UIAccessibilityIdentificationP", "jpegData"]
+- !private ["So7UIImageC", "jpegData"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "jpegData"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s26_ExpressibleByImageLiteralP", "jpegData"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CoreDataManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DateFormatter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ImageNote"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Location"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSDate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Note"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dateStyle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dateUpdate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "image"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "imageBig"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "jpegData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lat"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "location"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lon"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "string"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "timeStyle"]
+depends-nominal:
+- "s7CVarArgP"
+- !private "12LocalNote10015CoreDataManagerC"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- !private "So15NSDateFormatterC"
+- "SQ"
+- !private "So11NSFormatterC"
+- "SH"
+- !private "12LocalNote1009ImageNoteC"
+- !private "12LocalNote1008LocationC"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So6NSDateC"
+- "So20NSFetchRequestResultP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So15NSManagedObjectC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- "12LocalNote1004NoteC"
+- !private "SY"
+- !private "So20NSDateFormatterStyleV"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So7UIImageC"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s26_ExpressibleByImageLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "1d4121c770d1f0b0e813ec5494475e87"

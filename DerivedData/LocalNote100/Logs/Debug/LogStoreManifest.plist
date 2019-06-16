@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>0666D354-689D-46B4-85A3-07B86C37FD78</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>0666D354-689D-46B4-85A3-07B86C37FD78.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>LocalNote100 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>LocalNote100</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug LocalNote100</string>
+			<key>timeStartedRecording</key>
+			<real>582400690.49574196</real>
+			<key>timeStoppedRecording</key>
+			<real>582401011.76895297</real>
+			<key>title</key>
+			<string>Debug LocalNote100</string>
+			<key>uniqueIdentifier</key>
+			<string>0666D354-689D-46B4-85A3-07B86C37FD78</string>
+		</dict>
+		<key>1CB9EAA0-1AB7-46EA-AF1E-04DBC7D5F7DC</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>1CB9EAA0-1AB7-46EA-AF1E-04DBC7D5F7DC.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>LocalNote100 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>LocalNote100</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug LocalNote100</string>
+			<key>timeStartedRecording</key>
+			<real>582401019.68530595</real>
+			<key>timeStoppedRecording</key>
+			<real>582402375.37700105</real>
+			<key>title</key>
+			<string>Debug LocalNote100</string>
+			<key>uniqueIdentifier</key>
+			<string>1CB9EAA0-1AB7-46EA-AF1E-04DBC7D5F7DC</string>
+		</dict>
+		<key>3F653A56-E5E9-4A92-B123-F9B22E619554</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>3F653A56-E5E9-4A92-B123-F9B22E619554.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>LocalNote100 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>LocalNote100</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug LocalNote100</string>
+			<key>timeStartedRecording</key>
+			<real>582402438.79785204</real>
+			<key>timeStoppedRecording</key>
+			<real>582402531.37738895</real>
+			<key>title</key>
+			<string>Debug LocalNote100</string>
+			<key>uniqueIdentifier</key>
+			<string>3F653A56-E5E9-4A92-B123-F9B22E619554</string>
+		</dict>
+		<key>54E2139D-9FB0-4679-ACED-231430C96242</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>54E2139D-9FB0-4679-ACED-231430C96242.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>LocalNote100 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>LocalNote100</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug LocalNote100</string>
+			<key>timeStartedRecording</key>
+			<real>582400292.89019704</real>
+			<key>timeStoppedRecording</key>
+			<real>582400679.95818698</real>
+			<key>title</key>
+			<string>Debug LocalNote100</string>
+			<key>uniqueIdentifier</key>
+			<string>54E2139D-9FB0-4679-ACED-231430C96242</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

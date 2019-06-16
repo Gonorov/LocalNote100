@@ -1,0 +1,238 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Folder"
+provides-nominal:
+- "12LocalNote1006FolderC"
+provides-member:
+- ["12LocalNote1006FolderC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- !private "CoreDataManager"
+- "Folder"
+- !private "NSDate"
+- "NSManagedObject"
+- !private "NSSortDescriptor"
+- "Note"
+- "String"
+- !private "StringLiteralType"
+depends-member:
+- !private ["s7CVarArgP", "CoreDataManager"]
+- !private ["s7CVarArgP", "Folder"]
+- !private ["s7CVarArgP", "NSDate"]
+- !private ["s7CVarArgP", "NSSortDescriptor"]
+- !private ["s7CVarArgP", "Note"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "dateUpdate"]
+- !private ["s7CVarArgP", "folder"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "name"]
+- !private ["s7CVarArgP", "notes"]
+- !private ["s7CVarArgP", "sortedArray"]
+- !private ["12LocalNote10015CoreDataManagerC", "managedObjectContext"]
+- !private ["12LocalNote10015CoreDataManagerC", "sharedInstance"]
+- !private ["s28CustomDebugStringConvertibleP", "CoreDataManager"]
+- !private ["s28CustomDebugStringConvertibleP", "Folder"]
+- !private ["s28CustomDebugStringConvertibleP", "NSDate"]
+- !private ["s28CustomDebugStringConvertibleP", "NSSortDescriptor"]
+- !private ["s28CustomDebugStringConvertibleP", "Note"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "dateUpdate"]
+- !private ["s28CustomDebugStringConvertibleP", "folder"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "name"]
+- !private ["s28CustomDebugStringConvertibleP", "notes"]
+- !private ["s28CustomDebugStringConvertibleP", "sortedArray"]
+- !private ["s17CustomReflectableP", "sortedArray"]
+- !private ["s23CustomStringConvertibleP", "CoreDataManager"]
+- !private ["s23CustomStringConvertibleP", "Folder"]
+- !private ["s23CustomStringConvertibleP", "NSDate"]
+- !private ["s23CustomStringConvertibleP", "NSSortDescriptor"]
+- !private ["s23CustomStringConvertibleP", "Note"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "dateUpdate"]
+- !private ["s23CustomStringConvertibleP", "folder"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "name"]
+- !private ["s23CustomStringConvertibleP", "notes"]
+- !private ["s23CustomStringConvertibleP", "sortedArray"]
+- !private ["SQ", "CoreDataManager"]
+- !private ["SQ", "Folder"]
+- !private ["SQ", "NSDate"]
+- !private ["SQ", "NSSortDescriptor"]
+- !private ["SQ", "Note"]
+- ["SQ", ""]
+- !private ["SQ", "dateUpdate"]
+- !private ["SQ", "folder"]
+- !private ["SQ", "init"]
+- !private ["SQ", "name"]
+- !private ["SQ", "notes"]
+- !private ["SQ", "sortedArray"]
+- !private ["s25ExpressibleByArrayLiteralP", "sortedArray"]
+- !private ["12LocalNote1006FolderC", "CoreDataManager"]
+- ["12LocalNote1006FolderC", "Folder"]
+- !private ["12LocalNote1006FolderC", "NSDate"]
+- !private ["12LocalNote1006FolderC", "NSSortDescriptor"]
+- ["12LocalNote1006FolderC", "Note"]
+- ["12LocalNote1006FolderC", "String"]
+- ["12LocalNote1006FolderC", "addNote"]
+- !private ["12LocalNote1006FolderC", "dateUpdate"]
+- ["12LocalNote1006FolderC", "deinit"]
+- ["12LocalNote1006FolderC", "init"]
+- !private ["12LocalNote1006FolderC", "name"]
+- ["12LocalNote1006FolderC", "newFolder"]
+- !private ["12LocalNote1006FolderC", "notes"]
+- ["12LocalNote1006FolderC", "notesSorted"]
+- !private ["SH", "CoreDataManager"]
+- !private ["SH", "Folder"]
+- !private ["SH", "NSDate"]
+- !private ["SH", "NSSortDescriptor"]
+- !private ["SH", "Note"]
+- ["SH", ""]
+- !private ["SH", "dateUpdate"]
+- !private ["SH", "folder"]
+- !private ["SH", "init"]
+- !private ["SH", "name"]
+- !private ["SH", "notes"]
+- !private ["SH", "sortedArray"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "sortedArray"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "sortedArray"]
+- !private ["So6NSDateC", "init"]
+- !private ["So17NSFastEnumerationP", "sortedArray"]
+- !private ["So20NSFetchRequestResultP", "CoreDataManager"]
+- !private ["So20NSFetchRequestResultP", "Folder"]
+- !private ["So20NSFetchRequestResultP", "NSDate"]
+- !private ["So20NSFetchRequestResultP", "NSSortDescriptor"]
+- !private ["So20NSFetchRequestResultP", "Note"]
+- ["So20NSFetchRequestResultP", ""]
+- !private ["So20NSFetchRequestResultP", "dateUpdate"]
+- !private ["So20NSFetchRequestResultP", "folder"]
+- !private ["So20NSFetchRequestResultP", "init"]
+- !private ["So20NSFetchRequestResultP", "name"]
+- !private ["So20NSFetchRequestResultP", "notes"]
+- !private ["So15NSManagedObjectC", "CoreDataManager"]
+- ["So15NSManagedObjectC", "Folder"]
+- !private ["So15NSManagedObjectC", "NSDate"]
+- !private ["So15NSManagedObjectC", "NSSortDescriptor"]
+- ["So15NSManagedObjectC", "Note"]
+- ["So15NSManagedObjectC", "String"]
+- ["So15NSManagedObjectC", ""]
+- ["So15NSManagedObjectC", "addNote"]
+- !private ["So15NSManagedObjectC", "dateUpdate"]
+- !private ["So15NSManagedObjectC", "folder"]
+- ["So15NSManagedObjectC", "init"]
+- !private ["So15NSManagedObjectC", "name"]
+- ["So15NSManagedObjectC", "newFolder"]
+- !private ["So15NSManagedObjectC", "notes"]
+- ["So15NSManagedObjectC", "notesSorted"]
+- !private ["So16NSMutableCopyingP", "sortedArray"]
+- !private ["So8NSObjectC", "CoreDataManager"]
+- ["So8NSObjectC", "Folder"]
+- !private ["So8NSObjectC", "NSDate"]
+- !private ["So8NSObjectC", "NSSortDescriptor"]
+- ["So8NSObjectC", "Note"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "addNote"]
+- !private ["So8NSObjectC", "dateUpdate"]
+- !private ["So8NSObjectC", "folder"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "name"]
+- ["So8NSObjectC", "newFolder"]
+- !private ["So8NSObjectC", "notes"]
+- ["So8NSObjectC", "notesSorted"]
+- !private ["So8NSObjectC", "sortedArray"]
+- !private ["So8NSObjectP", "CoreDataManager"]
+- !private ["So8NSObjectP", "Folder"]
+- !private ["So8NSObjectP", "NSDate"]
+- !private ["So8NSObjectP", "NSSortDescriptor"]
+- !private ["So8NSObjectP", "Note"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "dateUpdate"]
+- !private ["So8NSObjectP", "folder"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "name"]
+- !private ["So8NSObjectP", "notes"]
+- !private ["So8NSObjectP", "sortedArray"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "sortedArray"]
+- !private ["So5NSSetC", "sortedArray"]
+- !private ["So16NSSortDescriptorC", "init"]
+- !private ["12LocalNote1004NoteC", "dateUpdate"]
+- !private ["12LocalNote1004NoteC", "folder"]
+- !private ["12LocalNote1004NoteC", "init"]
+- !private ["ST", "sortedArray"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "sortedArray"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CoreDataManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Folder"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSDate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSSortDescriptor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Note"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dateUpdate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "folder"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "notes"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sortedArray"]
+depends-nominal:
+- "s7CVarArgP"
+- !private "12LocalNote10015CoreDataManagerC"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- "12LocalNote1006FolderC"
+- "SH"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So6NSDateC"
+- !private "So17NSFastEnumerationP"
+- "So20NSFetchRequestResultP"
+- "So15NSManagedObjectC"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So5NSSetC"
+- !private "So16NSSortDescriptorC"
+- !private "12LocalNote1004NoteC"
+- !private "ST"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "56120e25663ae10e261e15ef52643513"
