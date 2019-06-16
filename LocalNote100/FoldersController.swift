@@ -21,6 +21,7 @@ class FoldersController: UITableViewController {
             let folderName = alertController.textFields?[0].text
             if folderName != "" {
                 _ = Folder.newFolder(name: folderName!)
+                CoreDataManager.sharedInstance.saveContext()
                 self.tableView.reloadData()
             }
         }
@@ -66,8 +67,22 @@ class FoldersController: UITableViewController {
         return cell
     }
     
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+       // let folderInCell = folders[indexPath.row]
+        performSegue(withIdentifier: "goToFolder", sender: self)
+    
+        
+    }
 
-    /*
+    override func prepare(for seque: UIStoryboardSegue, sender: Any?){
+        if seque.identifier == "goToFolder" {
+            let selectedFolder = folders[tableView.indexPathForSelectedRow!.row]
+            (seque.destination as! FolderController).folder = selectedFolder
+        }
+    }
+    
+
+        /*
     // Override to support conditional editing of the table view.
     override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
         // Return false if you do not want the specified item to be editable.
@@ -75,17 +90,22 @@ class FoldersController: UITableViewController {
     }
     */
 
-    /*
+    
     // Override to support editing the table view.
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
-            // Delete the row from the data source
-            tableView.deleteRows(at: [indexPath], with: .fade)
+            
+            let folderInCell = folders[indexPath.row]
+            
+            CoreDataManager.sharedInstance.managedObjectContext.delete(folderInCell)
+            CoreDataManager.sharedInstance.saveContext()
+            //Delete the row from the data source
+            tableView.deleteRows(at: [indexPath], with: .left)
         } else if editingStyle == .insert {
             // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
         }    
     }
-    */
+    
 
     /*
     // Override to support rearranging the table view.

@@ -19,8 +19,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         print(CoreDataManager.sharedInstance.persistentContainer.persistentStoreDescriptions)
     
-        let nf = Folder.newFolder(name: "Aaaa")
+        let nf = Folder.newFolder(name: "Aaaa1")
         nf.addNote().name = "Bbbb1"
+        nf.addNote().name = "Bbbb2"
+        nf.addNote().name = "Bbbb3"
+        
+         
         CoreDataManager.sharedInstance.saveContext()
         
         print(folders.count)

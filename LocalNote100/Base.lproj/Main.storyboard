@@ -69,7 +69,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <segue destination="eoJ-pj-xWF" kind="show" id="zwW-1c-ns2"/>
+                        <segue destination="eoJ-pj-xWF" kind="show" identifier="goToFolder" id="zwW-1c-ns2"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9gr-VP-fVC" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -191,13 +191,13 @@
         <!--Name folder-->
         <scene sceneID="Sv4-Qv-ln4">
             <objects>
-                <tableViewController id="eoJ-pj-xWF" sceneMemberID="viewController">
+                <tableViewController id="eoJ-pj-xWF" customClass="FolderController" customModule="LocalNote100" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="sb6-Kg-mR5">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="pgB-hN-wCf" detailTextLabel="GJd-Lj-sh2" style="IBUITableViewCellStyleSubtitle" id="UtU-Xx-aGA">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CellNote" textLabel="pgB-hN-wCf" detailTextLabel="GJd-Lj-sh2" style="IBUITableViewCellStyleSubtitle" id="UtU-Xx-aGA">
                                 <rect key="frame" x="0.0" y="28" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="UtU-Xx-aGA" id="a30-dt-5me">
@@ -231,7 +231,7 @@
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="R2V-ZD-M96"/>
                     </navigationItem>
                     <connections>
-                        <segue destination="fUI-fS-o8O" kind="show" id="x5w-wO-hLh"/>
+                        <segue destination="fUI-fS-o8O" kind="show" identifier="" id="x5w-wO-hLh"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Ds-Py-EYa" userLabel="First Responder" sceneMemberID="firstResponder"/>
