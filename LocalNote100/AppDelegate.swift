@@ -17,22 +17,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
-        print(CoreDataManager.sharedInstance.persistentContainer.persistentStoreDescriptions)
-    
-        let nf = Folder.newFolder(name: "Aaaa1")
-        nf.addNote().name = "Bbbb1"
-        nf.addNote().name = "Bbbb2"
-        nf.addNote().name = "Bbbb3"
-        
-         
-        CoreDataManager.sharedInstance.saveContext()
-        
-        print(folders.count)
-        print(folders[0].name ?? "NewFolder")
-        
-        print(notes.count)
-        print(notes[0].name ?? "NewNote")
-        
+//        print(CoreDataManager.sharedInstance.persistentContainer.persistentStoreDescriptions)
+//    
+//        let nf = Folder.newFolder(name: "Aaaa1")
+//        nf.addNote().name = "Bbbb1"
+//        nf.addNote().name = "Bbbb2"
+//        nf.addNote().name = "Bbbb3"
+//        
+//         
+//        CoreDataManager.sharedInstance.saveContext()
+//        
+//        print(folders.count)
+//        print(folders[0].name ?? "NewFolder")
+//        
+//        print(notes.count)
+//        print(notes[0].name ?? "NewNote")
+//        
         return true
     }
 

@@ -79,18 +79,34 @@
         <!--Notes-->
         <scene sceneID="qFp-0q-Oc3">
             <objects>
-                <tableViewController id="U6e-4d-1ar" sceneMemberID="viewController">
+                <tableViewController id="U6e-4d-1ar" customClass="FolderController" customModule="LocalNote100" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="rZs-vM-NpO">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="4eH-0m-p58">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CellNote" textLabel="z8I-rG-1Vc" detailTextLabel="AAL-fL-pl8" style="IBUITableViewCellStyleSubtitle" id="4eH-0m-p58">
                                 <rect key="frame" x="0.0" y="28" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="4eH-0m-p58" id="uIT-Gu-uOG">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="z8I-rG-1Vc">
+                                            <rect key="frame" x="20" y="5" width="33.5" height="20.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="AAL-fL-pl8">
+                                            <rect key="frame" x="20" y="25.5" width="44" height="14.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
@@ -99,7 +115,16 @@
                             <outlet property="delegate" destination="U6e-4d-1ar" id="IFC-tV-4ee"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Notes" id="eh6-Jk-0WV"/>
+                    <navigationItem key="navigationItem" title="Notes" id="eh6-Jk-0WV">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="OKE-GR-Lx0">
+                            <connections>
+                                <action selector="pushAddAction:" destination="U6e-4d-1ar" id="pMX-nd-1wQ"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <segue destination="fUI-fS-o8O" kind="show" identifier="goToNote" id="f44-f8-aHA"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5YP-Vt-X3C" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -228,10 +253,14 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Name folder" id="SHJ-7V-UrU">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="R2V-ZD-M96"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="R2V-ZD-M96">
+                            <connections>
+                                <action selector="pushAddAction:" destination="eoJ-pj-xWF" id="68C-8j-rWX"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <segue destination="fUI-fS-o8O" kind="show" identifier="" id="x5w-wO-hLh"/>
+                        <segue destination="fUI-fS-o8O" kind="show" identifier="goToNote" id="x5w-wO-hLh"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Ds-Py-EYa" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -241,7 +270,7 @@
         <!--Name note-->
         <scene sceneID="0JA-c1-2hN">
             <objects>
-                <tableViewController id="fUI-fS-o8O" sceneMemberID="viewController">
+                <tableViewController id="fUI-fS-o8O" customClass="NoteController" customModule="LocalNote100" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="JXI-hH-OPf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -351,10 +380,18 @@
                     <navigationItem key="navigationItem" title="Name note" id="EGi-xS-5KO">
                         <barButtonItem key="rightBarButtonItem" systemItem="action" id="eId-vT-NO9"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="imageView" destination="NtP-1x-VrE" id="mZW-eF-Riy"/>
+                        <outlet property="textDescription" destination="Te4-nV-xpo" id="So4-js-LEb"/>
+                        <outlet property="textName" destination="qjc-FU-KMa" id="fM7-fg-ORZ"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fED-ft-ZpB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2694.202898550725" y="-1385.4910714285713"/>
+            <point key="canvasLocation" x="2778" y="-865"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="x5w-wO-hLh"/>
+    </inferredMetricsTieBreakers>
 </document>

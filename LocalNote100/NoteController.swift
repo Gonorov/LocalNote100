@@ -1,74 +1,41 @@
 //
-//  FolderController.swift
+//  NoteController.swift
 //  LocalNote100
 //
-//  Created by Oleksandr Gonorovskyy on 15/06/2019.
+//  Created by Oleksandr Gonorovskyy on 19/06/2019.
 //  Copyright © 2019 Oleksandr Gonorovskyy. All rights reserved.
 //
 
 import UIKit
 
-class FolderController: UITableViewController {
-
-    var folder: Folder?
-    var notesActual: [Note]{
-        if let folder = folder {
-            return folder.notesSorted
-        } else {
-         return notes
-        }
-    }
-    var newNote: Note?
-    @IBAction func pushAddAction(_ sender: Any) {
-        newNote = Note.newNote(name: "NewN", inFolder: folder)
-        performSegue(withIdentifier: "goToNote", sender: self)
-    }
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "goToNote"{
-          (segue.destination as! NoteController).note = newNote
-        }
-    }
+class NoteController: UITableViewController {
+    var note: Note?
     
+    @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var textName: UITextField!
+    @IBOutlet weak var textDescription: UITextView!
+    
+
     override func viewDidLoad() {
         super.viewDidLoad()
+
+       textName.text = note?.name
+       textDescription.text = note?.textDescription
         
-        if let folder = folder {
-            navigationItem.title = folder.name
-        } else {
-            navigationItem.title = "All notes"
-        }
-    }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        tableView.reloadData()
     }
 
     // MARK: - Table view data source
 
-    override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 1
-    }
 
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        
-     
-            return notesActual.count
-        
-    }
-
-    
+    /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "CellNote", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
 
-       let noteInCell = notesActual[indexPath.row]
-        cell.textLabel?.text = noteInCell.name
-        cell.detailTextLabel?.text = noteInCell.dateUpdateString
+        // Configure the cell...
 
         return cell
     }
-    
+    */
 
     /*
     // Override to support conditional editing of the table view.
