@@ -18,14 +18,14 @@ class FolderController: UITableViewController {
          return notes
         }
     }
-    var newNote: Note?
+    var selectedNote: Note?
     @IBAction func pushAddAction(_ sender: Any) {
-        newNote = Note.newNote(name: "NewN", inFolder: folder)
+        selectedNote = Note.newNote(name: "NewN", inFolder: folder)
         performSegue(withIdentifier: "goToNote", sender: self)
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "goToNote"{
-          (segue.destination as! NoteController).note = newNote
+          (segue.destination as! NoteController).note = selectedNote
         }
     }
     
@@ -68,7 +68,14 @@ class FolderController: UITableViewController {
 
         return cell
     }
-    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+       
+        let noteInCell = notesActual[indexPath.row]
+        selectedNote = noteInCell
+        
+        performSegue(withIdentifier: "goToNote", sender: self)
+        
+    }
 
     /*
     // Override to support conditional editing of the table view.

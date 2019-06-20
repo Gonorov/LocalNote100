@@ -23,6 +23,23 @@ class NoteController: UITableViewController {
        textDescription.text = note?.textDescription
         
     }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        
+        if textName.text == "" && textDescription.text == "" {
+            CoreDataManager.sharedInstance.managedObjectContext.delete(note!)
+            CoreDataManager.sharedInstance.saveContext()
+            return
+        }
+        
+        if note?.name != textName.text ||
+            note?.textDescription != textDescription.text {
+            note?.dateUpdate = NSDate()
+        }
+        note?.name = textName.text
+        note?.textDescription = textDescription.text
+        CoreDataManager.sharedInstance.saveContext()
+    }
 
     // MARK: - Table view data source
 
