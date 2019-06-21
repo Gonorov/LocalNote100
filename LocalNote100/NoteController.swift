@@ -43,7 +43,27 @@ class NoteController: UITableViewController {
 
     // MARK: - Table view data source
 
-
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if indexPath.row == 0 && indexPath.section == 0 {
+          let alertController = UIAlertController(title: "Edit Image", message: "", preferredStyle: UIAlertController.Style.actionSheet)
+            
+            let a1Camera = UIAlertAction(title: "Make a photo", style: UIAlertAction.Style.default, handler: {(alert) in print("Camera")})
+            
+            let a2Photo = UIAlertAction(title: "Select from library", style: UIAlertAction.Style.default, handler: {(alert) in print("альбом")})
+            
+            let a3Delete = UIAlertAction(title: "Delete", style: UIAlertAction.Style.destructive, handler: {(alert) in self.imageView.image = nil})
+            
+            let a4Cancel = UIAlertAction(title: "Cancel", style: UIAlertAction.Style.cancel, handler: {(alert) in })
+            
+            alertController.addAction(a1Camera)
+            alertController.addAction(a2Photo)
+            alertController.addAction(a3Delete)
+            alertController.addAction(a4Cancel)
+            
+            present(alertController,animated: true, completion: nil)
+        }
+    }
+    
     /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
