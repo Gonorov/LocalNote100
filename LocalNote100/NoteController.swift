@@ -21,6 +21,7 @@ class NoteController: UITableViewController {
 
        textName.text = note?.name
        textDescription.text = note?.textDescription
+       // imageView = note?.image
         
     }
     
@@ -33,7 +34,9 @@ class NoteController: UITableViewController {
         }
         
         if note?.name != textName.text ||
-            note?.textDescription != textDescription.text {
+            note?.textDescription != textDescription.text
+        //    || note?. != imagePicker.sourceType
+        {
             note?.dateUpdate = NSDate()
         }
         note?.name = textName.text
@@ -42,23 +45,39 @@ class NoteController: UITableViewController {
     }
 
     // MARK: - Table view data source
-
+    
+    let imagePicker: UIImagePickerController = UIImagePickerController()
+    
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if indexPath.row == 0 && indexPath.section == 0 {
           let alertController = UIAlertController(title: "Edit Image", message: "", preferredStyle: UIAlertController.Style.actionSheet)
             
-            let a1Camera = UIAlertAction(title: "Make a photo", style: UIAlertAction.Style.default, handler: {(alert) in print("Camera")})
+            let a1Camera = UIAlertAction(title: "Make a photo", style: UIAlertAction.Style.default, handler: {(alert) in
+                //print("Camera")
+                self.imagePicker.sourceType = .camera
+                self.imagePicker.delegate = self
+                self.present(self.imagePicker, animated: true, completion: nil)
+                
+            })
+            alertController.addAction(a1Camera)
             
-            let a2Photo = UIAlertAction(title: "Select from library", style: UIAlertAction.Style.default, handler: {(alert) in print("альбом")})
+            let a2Photo = UIAlertAction(title: "Select from library", style: UIAlertAction.Style.default, handler: {(alert) in
+                //print("альбом")
+                self.imagePicker.sourceType = .savedPhotosAlbum
+                self.imagePicker.delegate = self
+                self.present(self.imagePicker, animated: true, completion: nil)
+            })
+            alertController.addAction(a2Photo)
             
-            let a3Delete = UIAlertAction(title: "Delete", style: UIAlertAction.Style.destructive, handler: {(alert) in self.imageView.image = nil})
+            if self.imageView.image != nil {
+                
+                let a3Delete = UIAlertAction(title: "Delete", style: UIAlertAction.Style.destructive, handler: {(alert) in self.imageView.image = nil})
+                alertController.addAction(a3Delete)
+            }
             
             let a4Cancel = UIAlertAction(title: "Cancel", style: UIAlertAction.Style.cancel, handler: {(alert) in })
-            
-            alertController.addAction(a1Camera)
-            alertController.addAction(a2Photo)
-            alertController.addAction(a3Delete)
             alertController.addAction(a4Cancel)
+
             
             present(alertController,animated: true, completion: nil)
         }
@@ -119,4 +138,19 @@ class NoteController: UITableViewController {
     }
     */
 
+}
+
+
+extension NoteController: UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+  //  func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String: Any]){
+//      imageView.image = info[UIImagePickerControllerOriginalImage] as? UIImage
+//        imageView.image = info[UIImagePickerController.keyboardIsLocalUserInfoKey] as? UIImage
+        func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) { // The info dictionary may contain multiple representations of the image. You want to use the original. guard let selectedImage = info[.originalImage] as? UIImage else { fatalError("Expected a dictionary containing an image, but was provided the following: \(info)") } // Set photoImageView to display the selected image. photoImageView.image = selectedImage // Dismiss the picker. dismiss(animated: true, completion: nil) }
+        imageView.image = info[.originalImage] as? UIImage
+         picker.dismiss(animated: true, completion: nil)
+    }
+    
+    func imagePickerControllerDidCancel(_ picker: UIImagePickerController){
+        picker.dismiss(animated: true, completion: nil)
+    }
 }
