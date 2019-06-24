@@ -21,13 +21,15 @@ class NoteController: UITableViewController {
 
        textName.text = note?.name
        textDescription.text = note?.textDescription
-       // imageView = note?.image
+       imageView.image = note?.imageActual
+       
         
     }
     
     override func viewWillDisappear(_ animated: Bool) {
         
-        if textName.text == "" && textDescription.text == "" {
+        if textName.text == "" && textDescription.text == "" &&
+            imageView.image == nil {
             CoreDataManager.sharedInstance.managedObjectContext.delete(note!)
             CoreDataManager.sharedInstance.saveContext()
             return
@@ -41,6 +43,7 @@ class NoteController: UITableViewController {
         }
         note?.name = textName.text
         note?.textDescription = textDescription.text
+        note?.imageActual = imageView.image
         CoreDataManager.sharedInstance.saveContext()
     }
 
@@ -142,9 +145,7 @@ class NoteController: UITableViewController {
 
 
 extension NoteController: UIImagePickerControllerDelegate, UINavigationControllerDelegate {
-  //  func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String: Any]){
-//      imageView.image = info[UIImagePickerControllerOriginalImage] as? UIImage
-//        imageView.image = info[UIImagePickerController.keyboardIsLocalUserInfoKey] as? UIImage
+  
         func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) { // The info dictionary may contain multiple representations of the image. You want to use the original. guard let selectedImage = info[.originalImage] as? UIImage else { fatalError("Expected a dictionary containing an image, but was provided the following: \(info)") } // Set photoImageView to display the selected image. photoImageView.image = selectedImage // Dismiss the picker. dismiss(animated: true, completion: nil) }
         imageView.image = info[.originalImage] as? UIImage
          picker.dismiss(animated: true, completion: nil)

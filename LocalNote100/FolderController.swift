@@ -65,7 +65,12 @@ class FolderController: UITableViewController {
        let noteInCell = notesActual[indexPath.row]
         cell.textLabel?.text = noteInCell.name
         cell.detailTextLabel?.text = noteInCell.dateUpdateString
-
+        if noteInCell.imageSmall != nil {
+            cell.imageView?.image = UIImage(data: noteInCell.imageSmall! as Data)
+        } else {
+            cell.imageView?.image = nil
+        }
+        
         return cell
     }
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
