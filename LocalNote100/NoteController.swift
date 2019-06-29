@@ -15,6 +15,9 @@ class NoteController: UITableViewController {
     @IBOutlet weak var textName: UITextField!
     @IBOutlet weak var textDescription: UITextView!
     
+    @IBOutlet weak var labelFolder: UILabel!
+    @IBOutlet weak var labelFolderName: UILabel!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,12 +25,29 @@ class NoteController: UITableViewController {
        textName.text = note?.name
        textDescription.text = note?.textDescription
        imageView.image = note?.imageActual
-       
+        navigationItem.title = note?.name
         
     }
     
-    override func viewWillDisappear(_ animated: Bool) {
-        
+    override func viewWillAppear(_ animated: Bool) {
+        if let folder = note?.folder {
+            labelFolderName.text = folder.name
+        } else {
+                labelFolderName.text = "-"
+             }
+   }
+    
+    @IBAction func pushDoneAction(_ sender: AnyObject) {
+        saveNote()
+        _ = navigationController?.popViewController(animated: true)
+    }
+    
+//    override func viewWillDisappear(_ animated: Bool) {
+//        
+//        
+//    }
+
+    func saveNote() {
         if textName.text == "" && textDescription.text == "" &&
             imageView.image == nil {
             CoreDataManager.sharedInstance.managedObjectContext.delete(note!)
@@ -37,21 +57,25 @@ class NoteController: UITableViewController {
         
         if note?.name != textName.text ||
             note?.textDescription != textDescription.text
-        //    || note?. != imagePicker.sourceType
+            
         {
             note?.dateUpdate = NSDate()
         }
         note?.name = textName.text
         note?.textDescription = textDescription.text
         note?.imageActual = imageView.image
+        
         CoreDataManager.sharedInstance.saveContext()
     }
-
+    
     // MARK: - Table view data source
     
     let imagePicker: UIImagePickerController = UIImagePickerController()
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+       
+        tableView.deselectRow(at: indexPath, animated: true)
+        
         if indexPath.row == 0 && indexPath.section == 0 {
           let alertController = UIAlertController(title: "Edit Image", message: "", preferredStyle: UIAlertController.Style.actionSheet)
             
