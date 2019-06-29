@@ -24,6 +24,7 @@
 		B9C4B51A22A4464000D9E3D5 /* LocalNote100.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B9C4B51822A4464000D9E3D5 /* LocalNote100.xcdatamodeld */; };
 		B9C4B51C22A4464400D9E3D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9C4B51B22A4464400D9E3D5 /* Assets.xcassets */; };
 		B9C4B51F22A4464400D9E3D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9C4B51D22A4464400D9E3D5 /* LaunchScreen.storyboard */; };
+		B9FB996522C795A90057F557 /* SelectFolderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FB996422C795A90057F557 /* SelectFolderController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		B9C4B51B22A4464400D9E3D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9C4B51E22A4464400D9E3D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B9C4B52022A4464400D9E3D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9FB996422C795A90057F557 /* SelectFolderController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectFolderController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				B975D16122B517B3002D9B52 /* FoldersController.swift */,
 				B975D16322B5652A002D9B52 /* FolderController.swift */,
 				B975D16522BAC2B3002D9B52 /* NoteController.swift */,
+				B9FB996422C795A90057F557 /* SelectFolderController.swift */,
 				B9C4B51B22A4464400D9E3D5 /* Assets.xcassets */,
 				B9C4B51D22A4464400D9E3D5 /* LaunchScreen.storyboard */,
 				B9C4B51822A4464000D9E3D5 /* LocalNote100.xcdatamodeld */,
@@ -190,6 +193,7 @@
 				B9C4B51222A4464000D9E3D5 /* AppDelegate.swift in Sources */,
 				B91315C222A463B800ED3CD8 /* ImageNote+CoreDataClass.swift in Sources */,
 				B91315BC22A463B800ED3CD8 /* Folder+CoreDataClass.swift in Sources */,
+				B9FB996522C795A90057F557 /* SelectFolderController.swift in Sources */,
 				B975D16622BAC2B3002D9B52 /* NoteController.swift in Sources */,
 				B91315BF22A463B800ED3CD8 /* Note+CoreDataProperties.swift in Sources */,
 				B93179EF22B03C02006A3957 /* CoreDataManager.swift in Sources */,
