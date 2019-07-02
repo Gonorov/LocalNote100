@@ -40,7 +40,12 @@ class FoldersController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-       
+       LocationManager.shareInstance.requestAutorrization()
+        
+        LocationManager.shareInstance.getCurrentLocation {
+            (location) in
+            print(location)
+            }
      
     }
 

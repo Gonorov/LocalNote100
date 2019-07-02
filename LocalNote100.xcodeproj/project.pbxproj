@@ -25,6 +25,7 @@
 		B9C4B51C22A4464400D9E3D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9C4B51B22A4464400D9E3D5 /* Assets.xcassets */; };
 		B9C4B51F22A4464400D9E3D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9C4B51D22A4464400D9E3D5 /* LaunchScreen.storyboard */; };
 		B9FB996522C795A90057F557 /* SelectFolderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FB996422C795A90057F557 /* SelectFolderController.swift */; };
+		B9FB996822CBF3160057F557 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FB996722CBF3160057F557 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		B9C4B51E22A4464400D9E3D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B9C4B52022A4464400D9E3D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9FB996422C795A90057F557 /* SelectFolderController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectFolderController.swift; sourceTree = "<group>"; };
+		B9FB996722CBF3160057F557 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				B93179EE22B03C02006A3957 /* CoreDataManager.swift */,
+				B9FB996722CBF3160057F557 /* LocationManager.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -88,14 +91,7 @@
 		B9C4B51022A4464000D9E3D5 /* LocalNote100 */ = {
 			isa = PBXGroup;
 			children = (
-				B91315B422A463B800ED3CD8 /* Folder+CoreDataClass.swift */,
-				B91315B522A463B800ED3CD8 /* Folder+CoreDataProperties.swift */,
-				B91315B622A463B800ED3CD8 /* Note+CoreDataClass.swift */,
-				B91315B722A463B800ED3CD8 /* Note+CoreDataProperties.swift */,
-				B91315B822A463B800ED3CD8 /* Location+CoreDataClass.swift */,
-				B91315B922A463B800ED3CD8 /* Location+CoreDataProperties.swift */,
-				B91315BA22A463B800ED3CD8 /* ImageNote+CoreDataClass.swift */,
-				B91315BB22A463B800ED3CD8 /* ImageNote+CoreDataProperties.swift */,
+				B9FB996622CBF1F70057F557 /* CoreData */,
 				B91315C422A463D400ED3CD8 /* Model */,
 				B9C4B51122A4464000D9E3D5 /* AppDelegate.swift */,
 				B9C4B51522A4464000D9E3D5 /* Main.storyboard */,
@@ -109,6 +105,21 @@
 				B9C4B52022A4464400D9E3D5 /* Info.plist */,
 			);
 			path = LocalNote100;
+			sourceTree = "<group>";
+		};
+		B9FB996622CBF1F70057F557 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				B91315B422A463B800ED3CD8 /* Folder+CoreDataClass.swift */,
+				B91315B522A463B800ED3CD8 /* Folder+CoreDataProperties.swift */,
+				B91315B622A463B800ED3CD8 /* Note+CoreDataClass.swift */,
+				B91315B722A463B800ED3CD8 /* Note+CoreDataProperties.swift */,
+				B91315B822A463B800ED3CD8 /* Location+CoreDataClass.swift */,
+				B91315B922A463B800ED3CD8 /* Location+CoreDataProperties.swift */,
+				B91315BA22A463B800ED3CD8 /* ImageNote+CoreDataClass.swift */,
+				B91315BB22A463B800ED3CD8 /* ImageNote+CoreDataProperties.swift */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,6 +197,7 @@
 				B975D16222B517B3002D9B52 /* FoldersController.swift in Sources */,
 				B91315C022A463B800ED3CD8 /* Location+CoreDataClass.swift in Sources */,
 				B975D16422B5652A002D9B52 /* FolderController.swift in Sources */,
+				B9FB996822CBF3160057F557 /* LocationManager.swift in Sources */,
 				B9C4B51A22A4464000D9E3D5 /* LocalNote100.xcdatamodeld in Sources */,
 				B91315C322A463B800ED3CD8 /* ImageNote+CoreDataProperties.swift in Sources */,
 				B91315BD22A463B800ED3CD8 /* Folder+CoreDataProperties.swift in Sources */,
