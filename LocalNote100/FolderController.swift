@@ -20,7 +20,8 @@ class FolderController: UITableViewController {
     }
     var selectedNote: Note?
     @IBAction func pushAddAction(_ sender: Any) {
-        selectedNote = Note.newNote(name: "NewN", inFolder: folder)
+        selectedNote = Note.newNote(name: "", inFolder: folder)
+        selectedNote?.addCurrentLocation()
         performSegue(withIdentifier: "goToNote", sender: self)
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
