@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B90E89CE22CFA56C004706AE /* NoteMapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90E89CD22CFA56C004706AE /* NoteMapController.swift */; };
 		B91315BC22A463B800ED3CD8 /* Folder+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91315B422A463B800ED3CD8 /* Folder+CoreDataClass.swift */; };
 		B91315BD22A463B800ED3CD8 /* Folder+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91315B522A463B800ED3CD8 /* Folder+CoreDataProperties.swift */; };
 		B91315BE22A463B800ED3CD8 /* Note+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91315B622A463B800ED3CD8 /* Note+CoreDataClass.swift */; };
@@ -29,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B90E89CD22CFA56C004706AE /* NoteMapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteMapController.swift; sourceTree = "<group>"; };
 		B91315B422A463B800ED3CD8 /* Folder+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Folder+CoreDataClass.swift"; sourceTree = "<group>"; };
 		B91315B522A463B800ED3CD8 /* Folder+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Folder+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		B91315B622A463B800ED3CD8 /* Note+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataClass.swift"; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 				B975D16322B5652A002D9B52 /* FolderController.swift */,
 				B975D16522BAC2B3002D9B52 /* NoteController.swift */,
 				B9FB996422C795A90057F557 /* SelectFolderController.swift */,
+				B90E89CD22CFA56C004706AE /* NoteMapController.swift */,
 				B9C4B51B22A4464400D9E3D5 /* Assets.xcassets */,
 				B9C4B51D22A4464400D9E3D5 /* LaunchScreen.storyboard */,
 				B9C4B51822A4464000D9E3D5 /* LocalNote100.xcdatamodeld */,
@@ -194,6 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B91315C122A463B800ED3CD8 /* Location+CoreDataProperties.swift in Sources */,
+				B90E89CE22CFA56C004706AE /* NoteMapController.swift in Sources */,
 				B975D16222B517B3002D9B52 /* FoldersController.swift in Sources */,
 				B91315C022A463B800ED3CD8 /* Location+CoreDataClass.swift in Sources */,
 				B975D16422B5652A002D9B52 /* FolderController.swift in Sources */,

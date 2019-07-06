@@ -271,6 +271,10 @@
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Ds-Py-EYa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="i7a-NJ-yUk">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </mapView>
             </objects>
             <point key="canvasLocation" x="1914" y="-1380"/>
         </scene>
@@ -369,15 +373,15 @@
                                             <segue destination="Wea-Wn-6cO" kind="show" identifier="goToSelectFolder" id="ylk-Ow-DNS"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="eME-wI-Ysh" rowHeight="40" style="IBUITableViewCellStyleDefault" id="yu8-TN-rxn">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="eME-wI-Ysh" rowHeight="40" style="IBUITableViewCellStyleDefault" id="yu8-TN-rxn">
                                         <rect key="frame" x="0.0" y="624" width="414" height="40"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="yu8-TN-rxn" id="CBZ-7k-FJs">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="39.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="376" height="39.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Location" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="eME-wI-Ysh">
-                                                    <rect key="frame" x="20" y="0.0" width="374" height="39.5"/>
+                                                    <rect key="frame" x="20" y="0.0" width="356" height="39.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -385,6 +389,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="FkO-gQ-FZx" kind="show" identifier="goToMap" id="GBp-ez-b8M"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -450,7 +457,32 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JME-9S-kqH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3451" y="-865"/>
+            <point key="canvasLocation" x="3606" y="-1231"/>
+        </scene>
+        <!--MAP-->
+        <scene sceneID="vrB-wZ-Kgs">
+            <objects>
+                <viewController id="FkO-gQ-FZx" customClass="NoteMapController" customModule="LocalNote100" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hug-Re-P4q">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="dZv-yK-cjC">
+                                <rect key="frame" x="0.0" y="88" width="414" height="681"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="mBU-16-9RM"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="MAP" id="vBo-PX-AiM"/>
+                    <connections>
+                        <outlet property="mapView" destination="dZv-yK-cjC" id="nk1-aj-7RP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="whr-9m-U9u" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3605.7971014492755" y="-459.375"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
