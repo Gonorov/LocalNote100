@@ -44,9 +44,23 @@ class NoteMapController: UIViewController {
             
         }
         
+        let ltgr = UILongPressGestureRecognizer(target: self, action: #selector(handleLongTap))
+        mapView.gestureRecognizers = [ltgr]
+        
     }
     
-
+    @objc func handleLongTap(recongnizer: UIGestureRecognizer) {
+        if recongnizer.state != .began {
+            return
+        }
+        
+        let point = recongnizer.location(in: mapView)
+        let c = mapView.convert(point, toCoordinateFrom: mapView)
+        note?.locationActual = LocationCoordinate(lat: c.latitude, lon: c.longitude)
+        CoreDataManager.sharedInstance.saveContext()
+        mapView.removeAnnotations(mapView.annotations)
+        mapView.addAnnotation(NoteAnnotation(note: note!))
+    }
 
 }
 extension NoteMapController: MKMapViewDelegate {
