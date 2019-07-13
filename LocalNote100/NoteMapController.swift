@@ -11,11 +11,14 @@ import MapKit
 
 class NoteAnnotation: NSObject, MKAnnotation {
     var coordinate: CLLocationCoordinate2D
+    var note: Note
     var title: String?
     var subtitle: String?
    
     
     init(note: Note){
+        self.note = note
+        title = note.name
         if note.locationActual != nil {
        coordinate = CLLocationCoordinate2D(latitude: note.locationActual!.lat, longitude: note.locationActual!.lon)
         } else {

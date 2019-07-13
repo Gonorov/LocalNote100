@@ -17,6 +17,7 @@
 		B91315C222A463B800ED3CD8 /* ImageNote+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91315BA22A463B800ED3CD8 /* ImageNote+CoreDataClass.swift */; };
 		B91315C322A463B800ED3CD8 /* ImageNote+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91315BB22A463B800ED3CD8 /* ImageNote+CoreDataProperties.swift */; };
 		B93179EF22B03C02006A3957 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93179EE22B03C02006A3957 /* CoreDataManager.swift */; };
+		B932497422D869FD00D791C3 /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B932497322D869FD00D791C3 /* MapController.swift */; };
 		B975D16222B517B3002D9B52 /* FoldersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B975D16122B517B3002D9B52 /* FoldersController.swift */; };
 		B975D16422B5652A002D9B52 /* FolderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B975D16322B5652A002D9B52 /* FolderController.swift */; };
 		B975D16622BAC2B3002D9B52 /* NoteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B975D16522BAC2B3002D9B52 /* NoteController.swift */; };
@@ -40,6 +41,7 @@
 		B91315BA22A463B800ED3CD8 /* ImageNote+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImageNote+CoreDataClass.swift"; sourceTree = "<group>"; };
 		B91315BB22A463B800ED3CD8 /* ImageNote+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImageNote+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		B93179EE22B03C02006A3957 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		B932497322D869FD00D791C3 /* MapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
 		B975D16122B517B3002D9B52 /* FoldersController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoldersController.swift; sourceTree = "<group>"; };
 		B975D16322B5652A002D9B52 /* FolderController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderController.swift; sourceTree = "<group>"; };
 		B975D16522BAC2B3002D9B52 /* NoteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteController.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 				B91315C422A463D400ED3CD8 /* Model */,
 				B9C4B51122A4464000D9E3D5 /* AppDelegate.swift */,
 				B9C4B51522A4464000D9E3D5 /* Main.storyboard */,
+				B932497322D869FD00D791C3 /* MapController.swift */,
 				B975D16122B517B3002D9B52 /* FoldersController.swift */,
 				B975D16322B5652A002D9B52 /* FolderController.swift */,
 				B975D16522BAC2B3002D9B52 /* NoteController.swift */,
@@ -212,6 +215,7 @@
 				B9FB996522C795A90057F557 /* SelectFolderController.swift in Sources */,
 				B975D16622BAC2B3002D9B52 /* NoteController.swift in Sources */,
 				B91315BF22A463B800ED3CD8 /* Note+CoreDataProperties.swift in Sources */,
+				B932497422D869FD00D791C3 /* MapController.swift in Sources */,
 				B93179EF22B03C02006A3957 /* CoreDataManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
