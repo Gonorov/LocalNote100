@@ -29,6 +29,7 @@ class FolderController: UITableViewController {
           (segue.destination as! NoteController).note = selectedNote
         }
     }
+    var store = StoreManager()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -38,6 +39,7 @@ class FolderController: UITableViewController {
         } else {
             navigationItem.title = "All notes"
         }
+        store.buyFullVersion()
     }
     
     override func viewWillAppear(_ animated: Bool) {
