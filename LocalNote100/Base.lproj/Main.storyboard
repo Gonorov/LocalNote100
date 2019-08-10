@@ -357,7 +357,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Folder" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rGp-gb-j4p">
-                                                    <rect key="frame" x="30" y="11" width="106" height="32"/>
+                                                    <rect key="frame" x="70" y="11" width="106" height="32"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="106" id="7Y9-aj-3aD"/>
                                                     </constraints>
@@ -366,7 +366,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="name_folder" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PTx-Ap-QKS">
-                                                    <rect key="frame" x="168" y="11" width="150" height="32"/>
+                                                    <rect key="frame" x="208" y="11" width="150" height="32"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="Zw4-QI-vqV"/>
                                                         <constraint firstAttribute="height" constant="32" id="cMe-6Y-8K7"/>
@@ -382,7 +382,7 @@
                                                 <constraint firstItem="rGp-gb-j4p" firstAttribute="baseline" secondItem="PTx-Ap-QKS" secondAttribute="baseline" id="cBg-Iw-RFE"/>
                                                 <constraint firstItem="rGp-gb-j4p" firstAttribute="firstBaseline" secondItem="PTx-Ap-QKS" secondAttribute="firstBaseline" id="ich-qq-wvL"/>
                                                 <constraint firstItem="PTx-Ap-QKS" firstAttribute="leading" secondItem="rGp-gb-j4p" secondAttribute="trailing" constant="32" id="qK6-gK-08t"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="PTx-Ap-QKS" secondAttribute="trailing" constant="50" id="yZo-8B-whh"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="PTx-Ap-QKS" secondAttribute="trailing" constant="10" id="yZo-8B-whh"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
@@ -502,6 +502,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="x5w-wO-hLh"/>
+        <segue reference="f44-f8-aHA"/>
     </inferredMetricsTieBreakers>
 </document>
