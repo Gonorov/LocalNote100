@@ -70,6 +70,38 @@
 			<key>uniqueIdentifier</key>
 			<string>1CB9EAA0-1AB7-46EA-AF1E-04DBC7D5F7DC</string>
 		</dict>
+		<key>3162DF99-668A-45F8-883F-DFD9F489F1CD</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>3162DF99-668A-45F8-883F-DFD9F489F1CD.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>LocalNote100 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>LocalNote100</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug LocalNote100</string>
+			<key>timeStartedRecording</key>
+			<real>582402535.64197505</real>
+			<key>timeStoppedRecording</key>
+			<real>582402687.21931303</real>
+			<key>title</key>
+			<string>Debug LocalNote100</string>
+			<key>uniqueIdentifier</key>
+			<string>3162DF99-668A-45F8-883F-DFD9F489F1CD</string>
+		</dict>
 		<key>3F653A56-E5E9-4A92-B123-F9B22E619554</key>
 		<dict>
 			<key>className</key>

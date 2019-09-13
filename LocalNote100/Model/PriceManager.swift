@@ -11,6 +11,7 @@ import UIKit
 import StoreKit
 
 var fullVersionProduct: SKProduct?
+
 let idFullVersion = "LocationNoteAG.FullVersion"
 
 class PriceManager: NSObject {

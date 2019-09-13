@@ -13,7 +13,7 @@ class FoldersController: UITableViewController {
     @IBAction func pushAddAction(_ sender: AnyObject) {
         let alertController = UIAlertController(title: "Create new folder", message: "", preferredStyle: UIAlertController.Style.alert)
         
-        alertController.addTextField { (text) in text.placeholder = "Folder name"
+        alertController.addTextField { (text) in text.placeholder = "Folder name".localize()
             
         }
         let alertActionAdd = UIAlertAction(title: "Create", style: UIAlertAction.Style.default) {

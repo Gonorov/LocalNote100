@@ -18,8 +18,18 @@ class FolderController: UITableViewController {
          return notes
         }
     }
+    
+    var buyingForm = BuyingForm()
+    
     var selectedNote: Note?
     @IBAction func pushAddAction(_ sender: Any) {
+        
+       if buyingForm.isNeedToShow {
+            buyingForm.showForm(inController: self)
+        print("buyingForm \(buyingForm.isNeedToShow)")
+        // MARK: - AG
+           //return
+        }
         selectedNote = Note.newNote(name: "", inFolder: folder)
         selectedNote?.addCurrentLocation()
         performSegue(withIdentifier: "goToNote", sender: self)
@@ -37,9 +47,9 @@ class FolderController: UITableViewController {
         if let folder = folder {
             navigationItem.title = folder.name
         } else {
-            navigationItem.title = "All notes"
+            navigationItem.title = "All notes".localize()
         }
-        store.buyFullVersion()
+      
     }
     
     override func viewWillAppear(_ animated: Bool) {
