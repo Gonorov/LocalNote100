@@ -11,12 +11,12 @@ import UIKit
 class FoldersController: UITableViewController {
 
     @IBAction func pushAddAction(_ sender: AnyObject) {
-        let alertController = UIAlertController(title: "Create new folder", message: "", preferredStyle: UIAlertController.Style.alert)
+        let alertController = UIAlertController(title: "Create new folder".localize(), message: "", preferredStyle: UIAlertController.Style.alert)
         
         alertController.addTextField { (text) in text.placeholder = "Folder name".localize()
             
         }
-        let alertActionAdd = UIAlertAction(title: "Create", style: UIAlertAction.Style.default) {
+        let alertActionAdd = UIAlertAction(title: "Create".localize(), style: UIAlertAction.Style.default) {
             (alert) in
             let folderName = alertController.textFields?[0].text
             if folderName != "" {
@@ -26,7 +26,7 @@ class FoldersController: UITableViewController {
             }
         }
         
-        let alertActionCancel = UIAlertAction(title: "Cancel", style: UIAlertAction.Style.default) {
+        let alertActionCancel = UIAlertAction(title: "Cancel".localize(), style: UIAlertAction.Style.default) {
             (alert) in
         }
         
@@ -68,6 +68,8 @@ class FoldersController: UITableViewController {
         let folderInCell = folders[indexPath.row]
         
         cell.textLabel?.text = folderInCell.name
+        // MARK: - AG
+        //print("Number rows: (notesActual.count) and \(folderInCell.notes!.count)")
         cell.detailTextLabel?.text = "\(String(describing: folderInCell.notes!.count)) item(-s)"
         
         return cell

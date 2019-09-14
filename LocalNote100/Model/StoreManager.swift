@@ -109,7 +109,7 @@ class BuyingForm {
         }
         if notes.count <= 3 {
             // MARK: - AG
-            print("Note.count=\(notes.count)")
+            //print("Note.count=\(notes.count)")
            return false
         }
         return true

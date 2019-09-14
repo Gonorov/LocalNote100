@@ -65,8 +65,9 @@ class FolderController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
+        // MARK: - AG
+       //print("Number rows: \(notesActual.count) and \(notes.count)")
         
-     
             return notesActual.count
         
     }

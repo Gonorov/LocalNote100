@@ -30,7 +30,7 @@ class MapController: UIViewController {
         
         let point = recongnizer.location(in: mapView)
         let c = mapView.convert(point, toCoordinateFrom: mapView)
-        let newNote = Note.newNote(name: "New note", inFolder: nil)
+        let newNote = Note.newNote(name: "New note".localize(), inFolder: nil)
         newNote.locationActual = LocationCoordinate(lat: c.latitude, lon: c.longitude)
         
         let noteController = storyboard?.instantiateViewController(withIdentifier: "noteSID") as! NoteController

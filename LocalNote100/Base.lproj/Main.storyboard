@@ -162,11 +162,11 @@
             </objects>
             <point key="canvasLocation" x="1034.7826086956522" y="-59.598214285714285"/>
         </scene>
-        <!--Folder-->
+        <!--Folders-->
         <scene sceneID="DjB-0u-4Ux">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" toolbarHidden="NO" id="2Xz-XZ-fRY" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Folder" id="APi-H7-Qss"/>
+                    <tabBarItem key="tabBarItem" title="Folders" id="APi-H7-Qss"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="mDF-MB-vDO">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -485,7 +485,7 @@
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="dZv-yK-cjC">
                                 <rect key="frame" x="0.0" y="88" width="414" height="681"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask"/>
                             </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

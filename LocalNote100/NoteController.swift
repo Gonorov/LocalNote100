@@ -77,9 +77,9 @@ class NoteController: UITableViewController {
         tableView.deselectRow(at: indexPath, animated: true)
         
         if indexPath.row == 0 && indexPath.section == 0 {
-          let alertController = UIAlertController(title: "Edit Image", message: "", preferredStyle: UIAlertController.Style.actionSheet)
+          let alertController = UIAlertController(title: "Edit Image".localize(), message: "", preferredStyle: UIAlertController.Style.actionSheet)
             
-            let a1Camera = UIAlertAction(title: "Make a photo", style: UIAlertAction.Style.default, handler: {(alert) in
+            let a1Camera = UIAlertAction(title: "Make a photo".localize(), style: UIAlertAction.Style.default, handler: {(alert) in
                 //print("Camera")
                 self.imagePicker.sourceType = .camera
                 self.imagePicker.delegate = self
@@ -88,7 +88,7 @@ class NoteController: UITableViewController {
             })
             alertController.addAction(a1Camera)
             
-            let a2Photo = UIAlertAction(title: "Select from library", style: UIAlertAction.Style.default, handler: {(alert) in
+            let a2Photo = UIAlertAction(title: "Select from library".localize(), style: UIAlertAction.Style.default, handler: {(alert) in
                 //print("альбом")
                 self.imagePicker.sourceType = .savedPhotosAlbum
                 self.imagePicker.delegate = self
@@ -98,11 +98,11 @@ class NoteController: UITableViewController {
             
             if self.imageView.image != nil {
                 
-                let a3Delete = UIAlertAction(title: "Delete", style: UIAlertAction.Style.destructive, handler: {(alert) in self.imageView.image = nil})
+                let a3Delete = UIAlertAction(title: "Delete".localize(), style: UIAlertAction.Style.destructive, handler: {(alert) in self.imageView.image = nil})
                 alertController.addAction(a3Delete)
             }
             
-            let a4Cancel = UIAlertAction(title: "Cancel", style: UIAlertAction.Style.cancel, handler: {(alert) in })
+            let a4Cancel = UIAlertAction(title: "Cancel".localize(), style: UIAlertAction.Style.cancel, handler: {(alert) in })
             alertController.addAction(a4Cancel)
 
             
